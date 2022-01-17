@@ -3,3 +3,52 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  user-select: none;
+  background: red;
+}
+.wrapper {
+  height: 50vh;
+  width: 50vw;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unknown {
+  border-bottom: #fff solid 2px;
+  margin: 1rem;
+  color: red;
+}
+.unknown-wrapper {
+  display: flex;
+}
+input {
+  font-size: 2rem;
+  width: 2rem;
+  text-align: center;
+  margin: 2rem;
+  border: solid black 2px;
+}
+.btn {
+  background: black;
+  border: solid #fff 2px;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: white;
+  color: black;
+  border: solid black 2px;
+}
+.shown {
+  color: #fff;
+}

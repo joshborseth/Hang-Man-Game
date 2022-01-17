@@ -8,14 +8,14 @@
     <title>Hang Man</title>
   </head>
   <body>
-    <div>
+    <div class="wrapper">
       <h1>Hang Man</h1>
 
-      <h1>Lives: <span>0</span></h1>
-
+      <h1>Lives: <span id="lives"></span></h1>
+      <div id="unknown-container-el" class="unknown-wrapper"></div>
       <label for="text"></label>
-      <input type="text" />
-      <button>Submit</button>
+      <input id="input" type="text" maxlength="1" />
+      <button id="btn" class="btn">Submit Your Guess</button>
     </div>
     <script src="app.js"></script>
   </body>
